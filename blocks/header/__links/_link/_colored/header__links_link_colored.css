@@ -1,0 +1,10 @@
+.header__links_link_colored {
+    color: white;
+    background-color: #1F1F1F;
+}
+
+.header__links_link_colored:hover {
+    background-color: #FBCE51;
+    color: #1F1F1F;
+    border: 2px solid #FBCE51;
+  }

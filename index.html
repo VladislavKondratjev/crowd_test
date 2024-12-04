@@ -9,7 +9,7 @@
 </head>
 
 <body class="page">
-    <div class="page__content">
+    <div class="page__container">
         <header class="header">
             <section class="header__content">
                 <svg width="246" height="36" viewBox="0 0 246 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +38,7 @@
                 </p>
                 <ul class="header__links">
                     <li class="header__links_item">
-                        <a href="" class="header__links_link">
+                        <a href="#support" class="header__links_link header__links_link_colored">
                             Поддержать шахматную мысль
                         </a>
                     </li>
@@ -50,38 +50,28 @@
                 </ul>
             </section>
         </header>
-        <!-- <style>
-            #marquee {
-                white-space: nowrap;
-                overflow: hidden;
-                width: 100%;
-                box-sizing: border-box;
-                border: 1px solid #000;
-                background-color: #f0f0f0;
-            }
-
-            #marquee-content {
-                display: inline-block;
-                padding-left: 100%;
-                /* Начинаем с правой стороны */
-                animation: marquee 25s linear infinite;
-                /* Анимация */
-            }
-
-            @keyframes marquee {
-                from {
-                    transform: translate(0);
-                }
-
-                to {
-                    transform: translate(-100%);
-                }
-            }
-        </style>
-        <div id="marquee">
-            <div id="marquee-content">Дело помощи утопающим — дело рук самих утопающих! Шахматы двигают вперед не только
-                культуру, но и экономику! Лед тронулся, господа присяжные заседатели!</div>
-        </div> -->
+        <section class="running-line">
+            <div class="running-line__content">
+                Дело помощи утопающим — дело рук самих утопающих! &#8226; Шахматы двигают вперед не только
+                культуру, но и экономику! &#8226; Лед тронулся, господа присяжные заседатели! &#8226; 
+            </div>
+        </section>
+        <div class="page__content">
+            <section id="support">
+                <div class="support__block">
+                    <h2 class="support__block_title title">
+                        Чтобы поддержать Международный васюкинский турнир посетите лекцию на тему: <span class="bold_colored">«Плодотворная дебютная идея»</span>
+                    </h2>
+                    <img src="./images/support__img1.jpg" alt="" class="support__block_img">
+                </div>
+                <div class="support__block reverse">
+                    <h2 class="support__block_title title">
+                        и Сеанс <span class="bold_colored">одновременной игры в шахматы на 160 досках</span> гроссмейстера О. Бендера
+                    </h2>
+                    <img src="./images/support__img2.jpg" alt="" class="support__block_img">
+                </div>
+            </section>
+        </div>
     </div>
 </body>
 

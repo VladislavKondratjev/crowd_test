@@ -9,3 +9,8 @@
 .title {
     font-family: 'Merriweather', Arial, sans-serif;
 }
+
+.bold_colored {
+    color: #F54932;
+    font-weight: bold;
+}

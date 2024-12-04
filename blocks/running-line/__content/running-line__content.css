@@ -1,0 +1,5 @@
+.running-line__content {
+  display: inline-block;
+  padding-left: 0;
+  animation: running-line 25s linear infinite;
+}

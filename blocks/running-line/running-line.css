@@ -1,0 +1,22 @@
+.running-line {
+  font-family: "Merriweather", Arial, sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f54932;
+  color: #fff;
+  font-size: 22px;
+  line-height: 110%;
+  padding: 10px 0;
+}
+
+@keyframes running-line {
+  from {
+    transform: translate(100%);
+  }
+
+  to {
+    transform: translate(-100%);
+  }
+}

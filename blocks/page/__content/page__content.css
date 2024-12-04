@@ -1,6 +1,5 @@
 .page__content {
-    min-width: 320px;
-    max-width: 1920px;
-    min-height: 100vh;
+    min-width: 336px;
+    max-width: 1222px;
     margin: 0 auto;
 }
